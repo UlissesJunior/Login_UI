@@ -6,4 +6,4 @@ Pra finalizar os estudos durante as férias, fiz o design de uma landing no Figm
 
 ## Demo
 Para testar acesse o link: 
-<a href="https://ulissesjunior.github.io/Landing_UI_3D/" target="_blank" >Login Travel Beach</a>
+<a href="https://ulissesjunior.github.io/Landing_UI_3D/" target="_blank" >Landing UI</a>
