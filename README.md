@@ -6,4 +6,4 @@ Pra finalizar os estudos durante as férias, fiz o design de uma landing no Figm
 
 ## Demo
 Para testar acesse o link: 
-<a href="https://ulissesjunior.github.io/LoginUI_3D/" target="_blank" >Login UI 3D</a>
+<a href="https://ulissesjunior.github.io/Login_UI/" target="_blank" >Login UI</a>
