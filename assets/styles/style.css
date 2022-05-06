@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #1B1B22;
+  max-width: 1170px;
+  margin: auto;
+  height: 100vh;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.container .container-left {
+  position: relative;
+  margin: 4vh 0px;
+  width: 50%;
+  height: 92vh;
+  border-radius: 8px;
+  background: linear-gradient(149.55deg, rgba(93, 7, 151, 0.8) 0%, #9C1BF2 100%);
+}
+
+.container .container-left img {
+  position: absolute;
+  top: 40px;
+  left: -60px;
+}
+
+.container .container-right {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFF;
+}
+
+.container .container-right .register {
+  margin-top: 4vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 10px;
+  cursor: default;
+}
+
+.container .container-right .register span {
+  color: #9C1BF2;
+  cursor: pointer;
+}
+
+.container .container-right a {
+  font-size: 12px;
+}
+
+.container .container-right h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container .container-right h2 {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.container .container-right .input {
+  position: relative;
+  margin: 48px 0 40px 0;
+}
+
+.container .container-right .input input {
+  max-width: 274px;
+  width: 100%;
+  height: 56px;
+  padding-left: 8px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.container .container-right .input input:nth-child(2) {
+  margin-top: 40px;
+}
+
+.container .container-right .forgot {
+  width: 312px;
+  text-align: right;
+}
+
+.container .container-right .button-login {
+  margin: 40px 0 48px 0;
+}
+
+.container .container-right .button-login button {
+  width: 274px;
+  height: 56px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(-0.56%, #5D0797), to(rgba(147, 27, 226, 0.8)));
+  background: linear-gradient(90deg, #5D0797 -0.56%, rgba(147, 27, 226, 0.8) 100%);
+  font-size: 16px;
+  color: #FFF;
+  border-radius: 8px;
+}
+
+.container .container-right .another-login .btn:hover {
+  border: 0;
+  -webkit-transition: ease-out 0.8s;
+  transition: ease-out 0.8s;
+  -webkit-box-shadow: 0px 0px 24px 4px rgba(156, 27, 242, 0.2);
+          box-shadow: 0px 0px 24px 4px rgba(156, 27, 242, 0.2);
+}
+
+.container .container-right .another-login a:first-child {
+  position: relative;
+}
+
+.container .container-right .another-login a::before {
+  position: absolute;
+  width: 78px;
+  height: 1px;
+  right: 110px;
+  content: "";
+  background: #FFF;
+  top: 8px;
+}
+
+.container .container-right .another-login a::after {
+  position: absolute;
+  width: 78px;
+  left: 110px;
+  height: 1px;
+  content: "";
+  background: #FFF;
+  top: 8px;
+}
+
+.container .container-right .another-login .btn_another-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 280px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .container-right .another-login .btn_another-login a::before,
+.container .container-right .another-login .btn_another-login a::after {
+  display: none;
+}
+
+.container .container-right .another-login .btn_another-login .btn {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70px;
+  height: 40px;
+  border: 1.5px solid rgba(156, 27, 242, 0.2);
+  border-radius: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .container-right .another-login .btn_another-login .btn a, .container .container-right .another-login .btn_another-login .btn img {
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 1169px) {
+  .container .container-left {
+    display: none;
+  }
+  .container .container-right {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
