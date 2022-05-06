@@ -6,7 +6,7 @@ Atualização de uma landing page de login (07/2021-05/2022), visando a melhoria
 
 ## Responsivo
 Considerando que a atualização foi feita completamente usando flexbox, a responsividade já vem praticamente pronta, sendo necessários menos de 10 linhas de código para o ajuste.
-<img src="assets/img/landing_ui-r.png">
+<img src="assets/img/landing_ui_r.png">
 
 ## Motivo da atualização
 Demonstrar as habilidades adquiridas durante esse período e manter um padrão de código.
