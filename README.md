@@ -1,8 +1,16 @@
 # Login_UI
-Pra finalizar os estudos durante as férias, fiz o design de uma landing no Figma e depois codei utilizando HTMl e SCSS.
+Atualização de uma landing page de login (07/2021-05/2022), visando a melhoria na estrutura do scss, a aplicação do flex e o responsivo.
 <p align="center">
 <img src="assets/img/landing_ui.png">
 <p>
+
+## Responsivo
+Considerando que a atualização foi feita completamente usando flexbox, a responsividade já vem praticamente pronta, sendo necessários menos de 10 linhas de código para o ajuste.
+<img src="assets/img/landing_ui-r.png">
+
+## Motivo da atualização
+Demonstrar as habilidades adquiridas durante esse período e manter um padrão de código.
+A versão antiga se localiza na branch 'old', neste <a href="https://github.com/UlissesJunior/Login_UI/tree/old" target="_blank" >link</a>
 
 ## Demo
 Para testar acesse o link: 

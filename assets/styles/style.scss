@@ -1,12 +1,4 @@
-// Variáveis
-
-$bg: #1B1B22;
-$purple_font: #9C1BF2;
-$gradient_1: linear-gradient(149.55deg, rgba(93, 7, 151, 0.8) 0%, #9C1BF2 100%);
-$gradient_2: linear-gradient(90deg, #5D0797 -0.56%, rgba(147, 27, 226, 0.8) 100%);
-$white: #FFF;
-$border: 1.5px solid rgba(156, 27, 242, 0.2);
-$box: 0px 0px 24px 4px rgba(156, 27, 242, 0.2);
+@import "_variables.scss";
 
 * {
     margin: 0;
@@ -16,10 +8,10 @@ $box: 0px 0px 24px 4px rgba(156, 27, 242, 0.2);
 }
 
 body {
-    background-color: $bg;
-    max-width: 1170px;
     margin: auto;
+    max-width: 1170px;
     height: 100vh;
+    background-color: $bg;
 }
 
 .container {
@@ -39,8 +31,6 @@ body {
         border-radius: 8px;
         background: $gradient_1;
 
-        // display: flex;
-        // align-items: center;
         img {
             position: absolute;
             top: 40px;
@@ -60,16 +50,16 @@ body {
         color: $white;
 
         .register {
-            margin-top: 4vh;
             position: absolute;
+            margin-top: 4vh;
             right: 0;
             top: 0;
             font-size: 10px;
             cursor: default;
 
             span {
-                color: $purple_font;
                 cursor: pointer;
+                color: $purple_font;
             }
         }
 
@@ -93,10 +83,10 @@ body {
             margin: 48px 0 40px 0;
 
             input {
+                padding-left: 8px;
                 max-width: 274px;
                 width: 100%;
                 height: 56px;
-                padding-left: 8px;
                 border-radius: 8px;
                 outline: none;
             }
@@ -109,6 +99,7 @@ body {
         .forgot {
             width: 312px;
             text-align: right;
+            cursor: pointer;
         }
 
         .button-login {
@@ -117,42 +108,40 @@ body {
             button {
                 width: 274px;
                 height: 56px;
-                background: $gradient_2;
                 font-size: 16px;
-                color: $white;
                 border-radius: 8px;
+                cursor: pointer;
+                background: $gradient_2;
+                color: $white;
             }
         }
 
         .another-login {
             .btn:hover {
                 border: 0;
-                transition: ease-out 0.8s;
                 box-shadow: $box;
+                transition: ease-out 0.8s;
             }
 
             a:first-child {
                 position: relative;
+                cursor: default;
             }
 
-            a::before {
-                position: absolute;
-                width: 78px;
-                height: 1px;
-                right: 110px; //98+12
-                content: "";
-                background: $white;
-                top: 8px;
-            }
-
+            a::before,
             a::after {
                 position: absolute;
                 width: 78px;
-                left: 110px;
                 height: 1px;
+                top: 8px;
+                right: 110px; //98+12
                 content: "";
                 background: $white;
-                top: 8px;
+            }
+
+            a::after {
+                right: 0;
+                left: 110px;
             }
 
             .btn_another-login {
@@ -166,17 +155,21 @@ body {
                 }
 
                 .btn {
-                    margin-top: 40px;
                     display: flex;
                     width: 70px;
                     height: 40px;
+                    margin-top: 40px;
                     border: $border;
                     border-radius: 8px;
                     align-items: center;
                     justify-content: center;
-                    a, img {
+                    cursor: pointer;
+
+                    a,
+                    img {
                         width: 25px;
                         height: 25px;
+                        cursor: pointer;
                     }
                 }
             }
@@ -193,8 +186,8 @@ body {
         }
 
         .container-right {
-            width: 100%;
+            margin: auto;
+            width: 90%;
         }
     }
-
 }
