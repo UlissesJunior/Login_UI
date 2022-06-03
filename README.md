@@ -1,7 +1,7 @@
 # Login_UI
 Atualização de uma landing page de login (07/2021-05/2022), visando a melhoria na estrutura do scss, a aplicação do flex e o responsivo.
 <p align="center">
-<img src="assets/img/landing_ui.png">
+<img src="assets/img/landing.png">
 <p>
 
 ## Responsivo
